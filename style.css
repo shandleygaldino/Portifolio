@@ -8,7 +8,6 @@
 }
 body {
     box-sizing: border-box;
-    height:100vh;
     background-color: black;
     color: #fcfdfc
 }
@@ -23,7 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 10% 15%;
+  padding: 8% 15%;
 }
 .apresentacao__conteudo{
   width: 615px;
@@ -70,6 +69,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .apresentacao__links__link:hover{
-  background: #272727
-  ;
+  transform: scale(1.3); 
+  background: #272727;
+}
+.rodape{
+  text-align: center;
+  padding:24px;
+  background: #22d4fd;
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
