@@ -44,6 +44,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 5% 15%;
+  gap: 82px;
 }
 .apresentacao__conteudo{
   width: 50%;
@@ -112,4 +113,23 @@ body {
   font-weight: 400;
   margin: 5% 5%;
 
+}
+@media (max-width:1200px) {
+    .cabecalho{
+          padding: 10%;
+          
+    }
+    .cabecalho__menu{
+      justify-content: center;
+      
+      
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        
+      }
+    .apresentacao__conteudo{
+      width: auto;
+    }
+   
 }
